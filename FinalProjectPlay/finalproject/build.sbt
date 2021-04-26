@@ -16,6 +16,7 @@ libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.1.1"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.7" % "test"
 
 libraryDependencies += guice
+
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
 
 // Adds additional packages into Twirl

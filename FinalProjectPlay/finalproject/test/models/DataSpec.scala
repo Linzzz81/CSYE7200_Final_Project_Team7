@@ -85,7 +85,7 @@ class DataSpec extends AnyFlatSpec with Matchers {
     nullKills shouldBe 0
   }
 
-  it should "work for row length" in {
+  it should "work for proportion" in {
     val numData = predData.count()
     numData shouldBe 15240
 
